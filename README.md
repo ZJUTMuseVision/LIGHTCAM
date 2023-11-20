@@ -3,7 +3,7 @@
 # Result  
   * Setup:F-bank80,num_frms300,epoch60, CrossEntropyLoss, aug_prob0.2, shuffle(2500)，MarginScheduler
   * Scoring: cosine similarity scoring
-  * Metric: EER(%),MinDCF()
+  * Metric: EER(%),MinDCF
 Performance comparison of different network structures on VoxCeleb1 dataset   
   
 Architecture  |Params(M)  |VoxCeleb1-O EER(%)/MinDCF  |VoxCeleb1-E EER(%)/MinDCF  |VoxCeleb1-H EER(%)/MinDCF  
