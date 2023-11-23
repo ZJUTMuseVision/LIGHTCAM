@@ -20,7 +20,7 @@ Model  |Params(M)  |FLOPs(G)  |RTF
 ECAPA-TDNN  |14.65  |3.96  |0.042  
 ResNet34  |6.63  |6.84  |0.057  
 CAM++  |7.18  |1.73  |0.026  
-**LightCAM**  |8.15  |**1.37**  |**0.017**  
+**LightCAM**  |  8.15  |**1.37**  |**0.017**  
   
 Ablation study of LightCAM modules. With DSM and MFA applied on CAM++, we get LightCAM  
 
