@@ -23,14 +23,12 @@ CAM++  |7.18  |0.88/0.0935  |0.97/0.1183  |1.89/0.1971
 <p align="center">Complexity comparison of the model</p>  
 
 <center>  
-   
 Model  |Params(M)  |FLOPs(G)  |RTF  
 | :----: | :-----: | :------: | :-------: |   
 ECAPA-TDNN  |14.65  |3.96  |0.042  
 ResNet34  |6.63  |6.84  |0.057  
 CAM++  |7.18  |1.73  |0.026  
 **LightCAM**  |8.15  |**1.37**  |**0.017**  
-
 </center>  
   
 <p align="center">Ablation study of LightCAM modules. With DSM and MFA applied on CAM++, we get LightCAM</p>  
