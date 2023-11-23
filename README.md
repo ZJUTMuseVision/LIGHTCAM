@@ -18,19 +18,11 @@ ResNet34  |6.63  |0.86/0.0912  |1.05/0.1214  |1.96/0.1921
 CAM++  |7.18  |0.88/0.0935  |0.97/0.1183  |1.89/0.1971  
 **LightCAM**  |8.15  |**0.83/0.0891**  |**0.95/0.1114**  |**1.86/0.1922**  
   
-</center>  
+</center>    
 
-<style>  
-.center  
-{  
-  width: auto;  
-  display: table;  
-  margin-left: auto;  
-  margin-right: auto;  
-}  
-</style>  
-
-<p align="center">Complexity comparison of the model</p>  
+Table 2 shows that LightCAM has 55.6% parameters and 34.6% FLOPs compared to ECAPA-TDNN. LightCAM has slightly more parameters compared to ResNet34 but significant fewer FLOPs and RTF. Moreover, LightCAM also reduces FLOPs by 20.8% and RTF by 34.6% compared to CAM++. It is worth noting that LightCAM achieves the fastest inference speed among all mainstream methods. The computational complexity of the proposed model has been greatly improved, making it more suitable for practical applications.  
+  
+<p align="center">Table2 Complexity comparison of the model</p>  
 
 <div class="center">  
   
@@ -43,7 +35,7 @@ CAM++  |7.18  |1.73  |0.026
   
 </div>  
   
-<p align="center">Ablation study of LightCAM modules. With DSM and MFA applied on CAM++, we get LightCAM</p>  
+<p align="center">Table3 Ablation study of LightCAM modules. With DSM and MFA applied on CAM++, we get LightCAM</p>  
 
 Method  |Params(M)  |FLOPs(G)  |VoxCeleb1-O EER(%)/MinDCF  |VoxCeleb1-E EER(%)/MinDCF  |VoxCeleb1-H EER(%)/MinDCF  
 | :----: | :-----: | :------: | :-------: | :--------: | :---------: |   
