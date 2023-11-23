@@ -28,7 +28,7 @@ CAM++  |7.18  |0.88/0.0935  |0.97/0.1183  |1.89/0.1971
   
 <p align="center">Table2 Complexity comparison of the model</p>  
 
-<div class="center">  
+<div align="center">  
   
 Model  |Params(M)  |FLOPs(G)  |RTF  
 | :----: | :-----: | :------: | :-------: |   
