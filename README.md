@@ -19,6 +19,7 @@ CAM++  |7.18  |0.88/0.0935  |0.97/0.1183  |1.89/0.1971
 **LightCAM**  |8.15  |**0.83/0.0891**  |**0.95/0.1114**  |**1.86/0.1922**  
   
 </center>  
+  
 <p align="center">Complexity comparison of the model</p>  
 
 <center>  
