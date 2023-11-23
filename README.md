@@ -38,7 +38,7 @@ CAM++  |7.18  |1.73  |0.026
   Table3 shows that the introduction of DSM, as a method to reduce complexity of the network, has decreased inference speed by 21.4% at the cost of slightly higher EER and MinDCF. MFA is further applied to the benchmark model, then both EER and MinDCF decreased, which are lower than the original CAM++ model, while the inference speed is maintained at the same optimal level. Using these two proposed improvement methods has resulted in both lightweight and improved performance of LightCAM.  
   
 <p align="center">Table3 Ablation study of LightCAM modules. With DSM and MFA applied on CAM++, we get LightCAM</p>  
-
+  
 Method  |Params(M)  |FLOPs(G)  |VoxCeleb1-O EER(%)/MinDCF  |VoxCeleb1-E EER(%)/MinDCF  |VoxCeleb1-H EER(%)/MinDCF  
 | :----: | :-----: | :------: | :-------: | :--------: | :---------: |   
 CAM++  |7.18  |1.73  |0.88/0.0935  |0.97/0.1183  |1.89/0.1971  
