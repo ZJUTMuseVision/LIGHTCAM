@@ -20,7 +20,7 @@ CAM++  |7.18  |0.88/0.0935  |0.97/0.1183  |1.89/0.1971
   
 </center>    
 
-Table 2 shows that LightCAM has 55.6% parameters and 34.6% FLOPs compared to ECAPA-TDNN. LightCAM has slightly more parameters compared to ResNet34 but significant fewer FLOPs and RTF. Moreover, LightCAM also reduces FLOPs by 20.8% and RTF by 34.6% compared to CAM++. It is worth noting that LightCAM achieves the fastest inference speed among all mainstream methods. The computational complexity of the proposed model has been greatly improved, making it more suitable for practical applications.  
+  Table 2 shows that LightCAM has 55.6% parameters and 34.6% FLOPs compared to ECAPA-TDNN. LightCAM has slightly more parameters compared to ResNet34 but significant fewer FLOPs and RTF. Moreover, LightCAM also reduces FLOPs by 20.8% and RTF by 34.6% compared to CAM++. It is worth noting that LightCAM achieves the fastest inference speed among all mainstream methods. The computational complexity of the proposed model has been greatly improved, making it more suitable for practical applications.  
   
 <p align="center">Table2 Complexity comparison of the model</p>  
 
@@ -34,6 +34,8 @@ CAM++  |7.18  |1.73  |0.026
 **LightCAM**  |8.15  |**1.37**  |**0.017**  
   
 </div>  
+
+  Table3 shows that the introduction of DSM, as a method to reduce complexity of the network, has decreased inference speed by 21.4% at the cost of slightly higher EER and MinDCF. MFA is further applied to the benchmark model, then both EER and MinDCF decreased, which are lower than the original CAM++ model, while the inference speed is maintained at the same optimal level. Using these two proposed improvement methods has resulted in both lightweight and improved performance of LightCAM.  
   
 <p align="center">Table3 Ablation study of LightCAM modules. With DSM and MFA applied on CAM++, we get LightCAM</p>  
 
