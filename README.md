@@ -48,3 +48,7 @@ Method  |Params(M)  |FLOPs(G)  |VoxCeleb1-O EER(%)/MinDCF  |VoxCeleb1-E EER(%)/M
 CAM++  |7.18  |1.73  |0.88/0.0935  |0.97/0.1183  |1.89/0.1971  
 +DSM  |7.36  |1.36  |0.83/0.1091  |1.01/0.1184  |1.94/0.2044  
 ++MFA  |8.15  |1.37  |0.83/0.0891  |0.95/0.1114  |1.86/0.1922  
+
+# Reference  
+  * EcapaTdnn：ECAPA-TDNN: Emphasized Channel Attention, Propagation and Aggregation in TDNN Based Speaker Verification
+  * CAMPPlus：CAM++: A Fast and Efficient Network for Speaker Verification Using Context-Aware Masking  
