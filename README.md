@@ -7,7 +7,7 @@
   
   Table 1 shows the experimental results of the proposed and baseline models. For fair comparison, all baseline models involved in the experiment are retrained using the same experimental setups. By comparing with ECAPA-TDNN and Res-Net34, it can be found that the proposed LightCAM has achieved slight performance improvements in EER and MinDCF on the O, E, and H test sets of VoxCeleb1. Mean-while, LightCAM has smaller number of parameters comparing with ECAPA-TDNN. This indicates that, with the goal of model lightweighting, LightCAM retains a slight advantage over mainstream speaker verification systems in terms of performance at a small parameter cost. Compared to CAM++, LightCAM achieves a further 5.7% improvement in EER for VoxCeleb1-O at the cost of 13.5% of the parameter set, demonstrating the effectiveness of the proposed DSM and MFA methods in improving model performance.  
   
-<center>Table1 Performance comparison of different network structures on VoxCeleb1 dataset</center>    
+<p align="center">Table1 Performance comparison of different network structures on VoxCeleb1 dataset</p>    
 Architecture  |Params(M)  |VoxCeleb1-O EER(%)/MinDCF  |VoxCeleb1-E EER(%)/MinDCF  |VoxCeleb1-H EER(%)/MinDCF  
 | :----: | :-----: | :------: | :-------: | :--------: |   
 ECAPA-TDNN  |14.65  |0.86/0.0921  |1.07/0.1185  |2.06/0.1956  
