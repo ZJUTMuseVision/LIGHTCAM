@@ -16,7 +16,7 @@ ResNet34  |6.63  |0.86/0.0912  |1.05/0.1214  |1.96/0.1921
 CAM++  |7.18  |0.88/0.0935  |0.97/0.1183  |1.89/0.1971  
 **LightCAM**  |8.15  |**0.83/0.0891**  |**0.95/0.1114**  |**1.86/0.1922**  
 
-<center>Complexity comparison of the model</center>  
+<p align="center">Complexity comparison of the model</p>  
 
 Model  |Params(M)  |FLOPs(G)  |RTF  
 | :----: | :-----: | :------: | :-------: |   
@@ -25,7 +25,7 @@ ResNet34  |6.63  |6.84  |0.057
 CAM++  |7.18  |1.73  |0.026  
 **LightCAM**  |8.15  |**1.37**  |**0.017**  
   
-<center>Ablation study of LightCAM modules. With DSM and MFA applied on CAM++, we get LightCAM</center>  
+<p align="center">Ablation study of LightCAM modules. With DSM and MFA applied on CAM++, we get LightCAM</p>  
 
 Method  |Params(M)  |FLOPs(G)  |VoxCeleb1-O EER(%)/MinDCF  |VoxCeleb1-E EER(%)/MinDCF  |VoxCeleb1-H EER(%)/MinDCF  
 | :----: | :-----: | :------: | :-------: | :--------: | :---------: |   
