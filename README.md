@@ -3,7 +3,7 @@
 # Introduction  
  In this paper, we propose a fast and lightweight model, LightCAM, which further adopts a depthwise separable convolution module (DSM) and uses multiscale feature aggregation (MFA) for feature fusion at different levels. Extensive experiments are conducted on VoxCeleb dataset, the comparative results show that it has achieved an EER of 0.83 and MinDCF of 0.0891 in VoxCeleb1-O, which outperforms the other mainstream speaker verification methods. In addition, complexity analysis further demonstrates that the proposed architecture has lower computational cost and faster inference speed.  
 # Structure  
-
+ 
 # Result  
   * Setup:F-bank80,num_frms300,epoch150, CrossEntropyLoss, aug_prob0.2, shuffle(2500)，MarginScheduler
   * Scoring: cosine similarity scoring
