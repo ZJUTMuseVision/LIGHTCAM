@@ -50,5 +50,5 @@ CAM++  |7.18  |1.73  |0.88/0.0935  |0.97/0.1183  |1.89/0.1971
 ++MFA  |8.15  |1.37  |0.83/0.0891  |0.95/0.1114  |1.86/0.1922  
 
 # Reference  
-  * EcapaTdnn：ECAPA-TDNN: Emphasized Channel Attention, Propagation and Aggregation in TDNN Based Speaker Verification
-  * CAMPPlus：CAM++: A Fast and Efficient Network for Speaker Verification Using Context-Aware Masking  
+  * EcapaTdnn：ECAPA-TDNN: Emphasized Channel Attention, Propagation and Aggregation in TDNN Based Speaker Verification(https://arxiv.org/pdf/2005.07143.pdf)  
+  * CAMPPlus：CAM++: A Fast and Efficient Network for Speaker Verification Using Context-Aware Masking(https://arxiv.org/abs/2303.00332v3)  
