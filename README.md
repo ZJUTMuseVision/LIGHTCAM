@@ -5,7 +5,7 @@
 # Structure  
 ![Image text](https://raw.githubusercontent.com/ZJUTMuseVision/LIGHTCAM/b01d215ea9219e20d2ecd8092740758b7824d9bb/img-storage/Structure.png)  
 # Result  
-  * Setup:F-bank80,num_frms300,epoch150, CrossEntropyLoss, aug_prob0.2, shuffle(2500)，MarginScheduler
+  * Setup:F-bank 80,num_frms 300,epoch 150, CrossEntropyLoss, aug_prob 0.2, shuffle 2500，MarginScheduler
   * Scoring: cosine similarity scoring
   * Metric: EER(%),MinDCF  
   
