@@ -7,7 +7,7 @@
 # Result  
   * Setup:F-bank 80,num_frms 300,epoch 150, CrossEntropyLoss, aug_prob 0.2, shuffle 2500，MarginScheduler
   * Scoring: cosine similarity scoring
-  * Metric: EER(%),MinDCF  
+  * Metric: EER(%),MinDCF,FLOPs,RTF  
   
   Table 1 shows the experimental results of the proposed and baseline models. For fair comparison, all baseline models involved in the experiment are retrained using the same experimental setups. By comparing with ECAPA-TDNN and Res-Net34, it can be found that the proposed LightCAM has achieved slight performance improvements in EER and MinDCF on the O, E, and H test sets of VoxCeleb1. Mean-while, LightCAM has smaller number of parameters comparing with ECAPA-TDNN. This indicates that, with the goal of model lightweighting, LightCAM retains a slight advantage over mainstream speaker verification systems in terms of performance at a small parameter cost. Compared to CAM++, LightCAM achieves a further 5.7% improvement in EER for VoxCeleb1-O at the cost of 13.5% of the parameter set, demonstrating the effectiveness of the proposed DSM and MFA methods in improving model performance.  
   
